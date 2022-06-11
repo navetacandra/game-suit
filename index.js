@@ -72,10 +72,9 @@ inquirer
     console.log(`Kamu : ${suit}
 Bot : ${bs}\n`);
     // show condition
-    // kalah
-    if (res == 0) console.log("Kamu kalah :p");
-    if (res == 1) console.log("Yeay! Kamu menang");
-    if (res == 2) console.log("Woah! Hasilnya seri");
+    if (res == 0) console.log("Kamu kalah :p"); // kalah or lose
+    if (res == 1) console.log("Yeay! Kamu menang"); // menang or win
+    if (res == 2) console.log("Woah! Hasilnya seri"); // seri or draw
   })
   // lgging on error
   .catch((err) => console.log(err));
